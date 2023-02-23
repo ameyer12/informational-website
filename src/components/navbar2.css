@@ -1,0 +1,22 @@
+nav {
+    background-color: white;
+}
+
+.navbar-brand {
+    flex-grow: 3;
+    margin-left: 15%;
+    margin-right: 10%;
+}
+
+.nav-item {
+    margin-right: 15%;
+    text-decoration: underline !important;
+    white-space: nowrap;
+    font-style: italic;
+}
+
+/* @media screen and (max-width: 750px){
+    #navbar2 {
+      height: 1r
+    }
+} */

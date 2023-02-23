@@ -1,0 +1,19 @@
+.home-body {
+    overflow-y: scroll;
+    background-image: url("./home-image.png");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 0%;
+}
+
+
+
+@media screen and (max-width: 750px){
+    .home-body {
+      background-size: cover;
+      height: 40vh;
+      width: 100vw;
+    }
+}

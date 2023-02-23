@@ -1,0 +1,47 @@
+nav {
+    background-color: white;
+}
+
+.navbar-brand {
+    flex-grow: 3;
+    margin-left: 15%;
+    margin-right: 10%;
+}
+
+.nav-item {
+    margin-right: 15%;
+    text-decoration: underline !important;
+    white-space: nowrap;
+    font-style: italic;
+    font-size: 14pt !important;
+}
+
+#body-container {
+    scroll-behavior: smooth;
+    overflow: scroll;
+}
+
+.history, .climb {
+    scroll-snap-type: y mandatory;
+    scroll-snap-align: center;
+}
+
+/* @keyframes history-link {
+    0% {
+        transform: translateY(-100%);
+    }
+    
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes climb-link {
+    0% {
+        transform: translateY(-100%);
+    }
+    
+    100% {
+        transform: translateY(0);
+    }
+} */

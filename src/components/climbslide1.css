@@ -1,0 +1,60 @@
+#climb-slide1 {
+    background-image: url("./pexels-creative-vix-9754.jpg");
+    height: 100vh;
+    width: 100%;
+    margin-top: 0%;
+}
+
+
+.schedule-container {
+    background-color: rgba(255,255,255, 0.4);
+    margin-left: 17.9%;
+    width: 22rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4%;
+}
+
+.climb-slide1-p {
+    text-align: center;
+    margin-top: 5%;
+    color: #284b70;
+    font-size: 28pt;
+} 
+
+
+.spacing-div {
+    padding: 1%;
+}
+
+.slide1-li {
+    list-style: none;
+    margin-bottom: 5%;
+    font-size: 15pt;
+    margin-left: 13%;
+}
+
+.list-events {
+    padding-left: 10%;
+}
+
+#climb-pagination {
+    background-color: #284b70;
+}
+
+#page1 {
+    margin-left: 17%;
+    background-color: #284b70 !important;
+    color: #284b70;
+}
+
+.pagination > li > a{
+    color: white;
+    background-color: #284b70;
+    border: none;
+    font-size: x-large;
+}
+
+li:hover {
+    cursor: pointer;
+}

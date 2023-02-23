@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&family=Teko:wght@300&display=swap');
+
+#climb-body {
+    overflow-y: hidden;
+    margin-top: 1%;
+    /* height: 10rem; */
+    width: 100%;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Teko', sans-serif;
+    /* margin-left: -10rem; */
+    top: -10rem
+}
+
+#climb-header-div {
+    overflow: hidden;
+    background-image: url("./climb-header.png");
+    background-size: 90rem;
+    background-repeat: no-repeat;
+    width: 100rem;
+    height: 10rem;
+    padding-bottom: 30rem;
+    margin-left: 7rem;
+    margin-top: -20rem;
+} 
+/* 
+@media screen and (max-width: 750px){
+    #climb-header-div {
+      background-size: 80rem;
+    }
+}
+ */
